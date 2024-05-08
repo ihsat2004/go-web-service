@@ -10,11 +10,11 @@ import (
 
 // db configuration details
 const (
-	postgres_host     = "db"
+	postgres_host     = "dpg-cot6bcsf7o1s73e1na60-a.singapore-postgres.render.com"
 	postgres_port     = 5432
-	postgres_user     = "postgres"
-	postgres_password = "postgres"
-	postgres_dbname   = "my_db"
+	postgres_user     = "postgres_admin"
+	postgres_password = "mpVh1OvK6X9Y6RyFrbHZMvKYDBH4mMyK"
+	postgres_dbname   = "my_db_htpg"
 )
 
 // create pointer variable Db which points to sql driver
