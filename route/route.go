@@ -2,7 +2,7 @@ package routes
 
 import (
 	"log"
-	"myapp/controller"
+	controller "myapp/controller1"
 	"net/http"
 
 	"github.com/gorilla/mux"
