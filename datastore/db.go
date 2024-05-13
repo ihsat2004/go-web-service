@@ -23,7 +23,7 @@ var Db *sql.DB
 // init() is always called before main()
 func init() {
 	// creating the connection string
-	db_info := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=disable", postgres_host, postgres_port, postgres_user, postgres_password, postgres_dbname)
+	db_info := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=require", postgres_host, postgres_port, postgres_user, postgres_password, postgres_dbname)
 
 	var err error
 	// open connection to database
