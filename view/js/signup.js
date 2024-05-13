@@ -19,7 +19,7 @@ function signUp() {
         .then(response => {
             if (response.status == 201) {
                 // console.log("logged in")
-                window.open("login.html", "_self")
+                window.open("index.html", "_self")
             }
         }).catch(e => {
             alert("error", e)
